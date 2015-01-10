@@ -1,5 +1,20 @@
 <html xmlns:th="http://www.thymeleaf.org">
+<title>Accounts</title>
 <body>
-    <p>Accounts Home Page</p>
+	<p>Accounts Home Page</p>
+	<table>
+		<thead>
+			<tr>
+				<td>Name</td>
+				<td>Balance</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="account : ${accounts}">
+				<td th:text="${account.name}"></td>
+				<td th:text="${account.balance}"></td>
+			</tr>
+		</tbody>
+	</table>
 </body>
 </html>
