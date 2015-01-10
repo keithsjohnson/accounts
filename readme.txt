@@ -19,3 +19,8 @@ Create Repository accounts
 
 git push -u origin --all
 
+to get Git support in Eclipse
+- Delete project from Eclipse (without deleting from disk)
+- In Eclipse -> File >- Import... -> Gradle -> Gradle Project 
+
+Make sure .gradle and build directories are in .gitingnore and contain nothing when committing and pushing to github.
