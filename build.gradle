@@ -20,6 +20,8 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'spring-boot'
+apply plugin: 'jacoco'
+
 
 group = 'uk.co.keithsjohnson'
 
@@ -59,4 +61,15 @@ dependencies {
 }
 task wrapper(type: Wrapper) {
     gradleVersion = '2.2.1'
+}
+
+mainClassName = "uk.co.keithsjohnson.accounts.AccountsMainApplication"
+
+jacoco {
+    applyTo run
+}
+
+task applicationCodeCoverageReport(type:JacocoReport){
+    executionData run
+    sourceSets sourceSets.main
 }
