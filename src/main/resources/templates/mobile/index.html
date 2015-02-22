@@ -17,11 +17,10 @@
 		</div>
 
 		<div data-role="content">
-			<ul data-role="listview" data-filter="true"
-				data-filter-placeholder="Accounts:" data-inset="true">
+			<ul data-role="listview" data-filter="true" data-filter-placeholder="Accounts:" data-inset="true">
 				<li th:each="account : ${accounts}"><a
 					th:href="${account.name}" target="_blank"
-					th:text="${account.balance}"> </a></li>
+					th:text="${account.balance}">${account.name}</a></li>
 			</ul>
 		</div>
 	</div>

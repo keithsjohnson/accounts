@@ -36,11 +36,20 @@ repositories {
     mavenCentral()
 }
 
+// tag::clean[]
+clean {
+    delete "activemq-data"
+}
+// end::clean[]
+
 // In this section you declare the dependencies for your production and test code
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-mobile")
+    compile("org.springframework.boot:spring-boot-starter-remote-shell")
+    compile("org.springframework:spring-jms")
+    compile("org.apache.activemq:activemq-broker")
     // tag::actuator[]
     compile("org.springframework.boot:spring-boot-starter-actuator")
     // end::actuator[]
