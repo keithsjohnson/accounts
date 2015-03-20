@@ -6,7 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import uk.co.keithsjohnson.accounts.action.GetAccountsAction;
+import uk.co.keithsjohnson.accounts.action.accounts.GetAccountsAction;
 
 @Controller
 public class HomeView {
