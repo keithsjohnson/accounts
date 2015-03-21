@@ -1,4 +1,4 @@
-package uk.co.keithsjohnson.accounts.model;
+package uk.co.keithsjohnson.accounts.model.accounts;
 
 public class Account {
 	private final String name;

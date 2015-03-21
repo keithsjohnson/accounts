@@ -4,6 +4,8 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+import uk.co.keithsjohnson.accounts.model.accounts.Account;
+
 public class AccountJUnitTest {
 
 	@Test

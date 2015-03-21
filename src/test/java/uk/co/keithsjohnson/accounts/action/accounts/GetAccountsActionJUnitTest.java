@@ -14,7 +14,7 @@ import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 
 import uk.co.keithsjohnson.accounts.domain.accounts.AccountsRetreiver;
-import uk.co.keithsjohnson.accounts.model.Account;
+import uk.co.keithsjohnson.accounts.model.accounts.Account;
 
 @RunWith(MockitoJUnitRunner.class)
 public class GetAccountsActionJUnitTest {

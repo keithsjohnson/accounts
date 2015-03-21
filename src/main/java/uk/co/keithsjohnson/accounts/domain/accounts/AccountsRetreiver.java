@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import uk.co.keithsjohnson.accounts.model.Account;
+import uk.co.keithsjohnson.accounts.model.accounts.Account;
 
 @Service
 public class AccountsRetreiver {

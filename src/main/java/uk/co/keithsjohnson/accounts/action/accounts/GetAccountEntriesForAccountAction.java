@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
 import uk.co.keithsjohnson.accounts.domain.accounts.AccountEntriesRetriever;
-import uk.co.keithsjohnson.accounts.model.Account;
-import uk.co.keithsjohnson.accounts.model.AccountEntry;
+import uk.co.keithsjohnson.accounts.model.accounts.Account;
+import uk.co.keithsjohnson.accounts.model.accounts.AccountEntry;
 
 @Controller
 public class GetAccountEntriesForAccountAction {

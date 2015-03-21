@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
 import uk.co.keithsjohnson.accounts.domain.accounts.AccountsRetreiver;
-import uk.co.keithsjohnson.accounts.model.Account;
+import uk.co.keithsjohnson.accounts.model.accounts.Account;
 
 @Controller
 public class GetAccountsAction {
