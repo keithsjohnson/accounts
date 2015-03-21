@@ -6,9 +6,9 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import uk.co.keithsjohnson.accounts.model.AmountType;
 import uk.co.keithsjohnson.accounts.model.accounts.Account;
 import uk.co.keithsjohnson.accounts.model.accounts.AccountEntry;
+import uk.co.keithsjohnson.accounts.model.accounts.AmountType;
 
 @Service
 public class AccountEntriesRetriever {

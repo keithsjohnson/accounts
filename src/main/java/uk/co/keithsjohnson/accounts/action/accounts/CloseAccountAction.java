@@ -1,5 +1,5 @@
 package uk.co.keithsjohnson.accounts.action.accounts;
 
-public class Transfer {
+public class CloseAccountAction {
 
 }

@@ -2,9 +2,6 @@ package uk.co.keithsjohnson.accounts.model.accounts;
 
 import java.time.LocalDate;
 
-import uk.co.keithsjohnson.accounts.model.AmountType;
-import uk.co.keithsjohnson.accounts.model.ReconciliationType;
-
 public class AccountEntry {
 	private final LocalDate date;
 	private final String payee;

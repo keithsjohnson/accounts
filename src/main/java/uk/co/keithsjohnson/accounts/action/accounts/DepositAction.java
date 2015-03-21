@@ -1,5 +1,5 @@
 package uk.co.keithsjohnson.accounts.action.accounts;
 
-public class Deposit {
+public class DepositAction {
 
 }
